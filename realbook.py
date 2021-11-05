@@ -1,9 +1,3 @@
-'''
-LSTM realbook by Keunwoo Choi. (Keras 1.0)
-Details on 
-- repo:  https://github.com/keunwoochoi/lstm_real_book
-- paper: https://arxiv.org/abs/1604.05358#
-'''
 from keras.models import Sequential
 from keras.layers.core import Dense, Activation, Dropout
 from keras.layers.recurrent import LSTM
