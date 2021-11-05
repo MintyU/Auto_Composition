@@ -1,0 +1,42 @@
+from result_iter_39 div 1.00
+
+C:maj C:maj C:maj C:maj
+A:7 A:7 A:7 A:7
+D:7 D:7 D:7 D:7
+D:7 D:7 G:7 G:7
+C:maj C:maj C:maj C:maj
+C:maj C:maj G:7 G:7 
+C:maj C:maj C:maj C:maj 
+E:7 E:7 A:7 A:7 
+D:min7 D:min7 D:min7 D:min7 
+C:maj C:maj D:min7 D:min7 
+C:maj C:maj C:maj C:maj
+
+----------------------------------
+
+from result_iter_16 div 1.20
+
+E:min7 E:min7 E:min7 E:min7 
+D#:dim D#:dim D#:dim D#:dim
+D:min7 D:min7 D:min7 D:min7 
+G:9 E:min7 A#:7 A:7 
+D:min7 D:min7 D:min7 D:min7
+G:7 G:7 G:7 G:7
+D:min7 D:min7 A:7 A:7
+
+----------------------------------
+
+from result_iter_35 div 1.20
+
+C:maj C:maj F:maj7 F:maj7
+C:maj C:maj A:min7 A:min7 
+D:min7 D:min7 G:7 G:7 
+C:maj C:maj D#:maj6 D#:maj6 
+F:maj7 F:maj7 D:hdim D:hdim 
+C:maj C:maj A:7 A:7 
+D:min7 D:min7 G:7 G:7 
+C:maj C:maj F:7 F:7 
+D#:maj D#:maj D#:7 D#:7 
+G#:7 G#:7 A:dim A:dim 
+D:min7 D:min7 A#:7 A#:7 
+D#:maj D#:maj A:7 A:7 
