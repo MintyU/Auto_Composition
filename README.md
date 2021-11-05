@@ -1,6 +1,6 @@
 # Auto_Composition
 Auto composition using stacked LSTM
-<div>
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1342214653&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-<div>  
-<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/mezb0euz8jff" title="Yeonsu" target="_blank" style="color: #cccccc; text-decoration: none;">Yeonsu</a> · <a href="https://soundcloud.com/mezb0euz8jff/sets/lstm-composition" title="LSTM composition" target="_blank" style="color: #cccccc; text-decoration: none;">LSTM composition</a></div>
+
+[Iteration 16 (diversity : 1.2)]:https://soundcloud.com/mezb0euz8jff/result-iter-16-div-1-20?si=8d1d3560e6044f40916fcc68e0bd468c
+[Iteration 35 (diversity : 1.2)]:https://soundcloud.com/mezb0euz8jff/result-iter-35-div-1-20?si=a36c444bdc0a44bd8e1539b744902a87
+[Iteration 19 (diversity : 1.0)]:https://soundcloud.com/mezb0euz8jff/result-iter-39-div-1-00?si=67fd7fb740a54cd184f7acc485b22bab
