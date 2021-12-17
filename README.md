@@ -34,6 +34,9 @@ Auto composition using stacked LSTM
 ### 1. Pitch Class Transition Matrix(PCTM)
 
 * Dataset
+
+![dataset_PCTM](src/dataset_PCTM)
+
 * Single Layer LSTM Result
 * Multi Layer LSTM Result
 
