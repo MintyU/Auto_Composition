@@ -31,6 +31,8 @@ Auto composition using stacked LSTM
 * Pitch Class Histogram(PCH)
 * Note Length Histogram(NLH)
 
+3종류의 Metric을 통해 학습에 사용한 Dataset(진짜 재즈 악보 - 리얼북 코드)과 생성한 코드가 유사한 특성을 가지는지, 음악의 형식적인 규칙을 만족하는지를 평가하게 됩니다.
+
 ### 1. Pitch Class Transition Matrix(PCTM)
 
 * Dataset
@@ -44,6 +46,7 @@ Auto composition using stacked LSTM
 * Multi Layer LSTM Result
 
 ![multi_PCTM](src/multi_PCTM.png)
+
 
 ### 2. Pitch Class Histogram(PCH)
 
@@ -73,9 +76,6 @@ Auto composition using stacked LSTM
 
 ![multi_NLH](src/multi_NLH.png)
 
-## Results
-
-3종류의 Metric을 통해 학습에 사용한 Dataset(진짜 재즈 악보 - 리얼북 코드)과 생성한 코드가 유사한 특성을 가지는지, 음악의 형식적인 규칙을 만족하는지를 평가하게 됩니다.
 
 
 ## Conclusion
