@@ -35,22 +35,43 @@ Auto composition using stacked LSTM
 
 * Dataset
 
-![dataset_PCTM](src/dataset_PCTM)
+![dataset_PCTM](src/dataset_PCTM.png)
 
 * Single Layer LSTM Result
+
+![single_PCTM](src/single_PCTM.png)
+
 * Multi Layer LSTM Result
+
+![multi_PCTM](src/multi_PCTM.png)
 
 ### 2. Pitch Class Histogram(PCH)
 
 * Dataset
+
+![dataset_PCH](src/dataset_PCH.png)
+
 * Single Layer LSTM Result
+
+![single_PCH](src/single_PCH.png)
+
 * Multi Layer LSTM Result
+
+![multi_PCH](src/multi_PCH.png)
 
 ### 3. Note Length Histogram(NLH)
 
 * Dataset
+
+![dataset_NLH](src/dataset_NLH.png)
+
 * Single Layer LSTM Result
+
+![single_NLH](src/single_NLH.png)
+
 * Multi Layer LSTM Result
+
+![multi_NLH](src/multi_NLH.png)
 
 ## Results
 
