@@ -21,6 +21,10 @@ Auto composition using stacked LSTM
 
 ## Model
 
+![multi_layer_LSTM](src/multilayer_lstm.png)
+
+복잡성을 늘리기 위해 Multi Layer LSTM을 사용합니다. 이를 통해 단조로운 코드 진행을 막고, 더 다양한 코드를 사용한 곡을 만들 수 있게 해줍니다.
+
 ## Evaluation
 
 [참조 논문(On the evaluation of generative models in music)](https://musicinformatics.gatech.edu/wp-content_nondefault/uploads/2018/11/postprint.pdf)
@@ -90,7 +94,16 @@ Pitch Class Histogram(PCH)를 통해서, D, C, G 코드가 재즈에서 많이 �
 
 ![multi_NLH](src/multi_NLH.png)
 
+Note Length Histogram(NLH)를 통해서는 생성한 곡이 음악적인 형식을 갖추고 있는지를 확인할 수 있습니다.
 
+4분의 4박자 기준의 데이터로 학습을 진행했기 때문에, 4박자를 기준으로 코드 진행이 이뤄지게 됩니다. 이에 따라 박자가 형식에 맞는다면, NLH를 살펴보았을 때 자연스럽게 2^n 크기의 노트가 더 자주 등장하게 된다는 사실을 알 수 있습니다.
 
 ## Conclusion
 
+LSTM을 통해 새로운 재즈 악보를 생성해 보았습니다. 실제로 나온 악보를 보고 연주를 해보면, 나온 멜로디의 코드 진행은 얼핏 듣기에도 꽤 괜찮은 코드 진행으로 들립니다.
+
+뿐만 아니라, 4박자를 기준으로 딱 맞아 떨어지는 코드 진행을 보여주며 형식적으로도 완성도있는 곡이 만들어지고 있다는 느낌을 줍니다.
+
+앞으로 재즈 뿐만 아니라 다양한 음악 장르에, 음악 분야 뿐만 아니라 다양한 예술 분야에서도 머신 러닝이 활용될 수 있을 것 같은 기대감이 듭니다.
+
+다만, 아쉬운 점은 이번엔 코드의 진행으로 대략적인 곡의 흐름만을 잡아보았다는 점입니다. 추후, 코드에 따라 멜로디를 생성해주거나 드럼 비트나 여러가지 악기들이 한꺼번에 같이 연주할 수 있도록 하면 더 재미있을 것 같다는 생각이 들었습니다. 
