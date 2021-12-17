@@ -47,6 +47,18 @@ Auto composition using stacked LSTM
 
 ![multi_PCTM](src/multi_PCTM.png)
 
+재즈 장르에서는 II-V-I 진행이 높은 빈도로 나타나며, 해당 진행은 PCTM을 통해 확인할 수 있습니다.
+
+<img src="src/cycle.png" width="500"/>
+
+위의 이미지처럼, `C - F - Bb - Eb - Ab - Db - Gb - B - E - A - D - G - C`의 사이클이 있고, 이 사이클의 순서로 코드가 바뀌면 II-V-I 진행이 나타난다고 볼 수 있습니다.
+
+Transition Matrix를 통해 코드 변화의 빈도를 살펴보면, 붉은 색으로 칠해진 "자주 등장하는 코드 변환"은 대부분 II-V-I 진행임을 확인할 수 있습니다.
+ex) A->D, B->E, D->G, E->A, G->C
+
+Single Layer LSTM의 경우, II-V-I 진행은 눈에 띄지만 곡의 구성이 단조로움을 알 수 있습니다. 재즈의 특징을 잘 살림에는 분명하지만, 코드 변화가 너무 뻔하고 단조로워졌습니다.
+
+따라서, 이를 보완하기 위해 Multi Layer LSTM을 통해 복잡도를 높였으며, Multi Layer LSTM으로 생성한 곡의 PCTM을 보면 Single Layer보다 더 다양한 코드가 쓰였음을 확인할 수 있습니다.
 
 ### 2. Pitch Class Histogram(PCH)
 
@@ -61,6 +73,8 @@ Auto composition using stacked LSTM
 * Multi Layer LSTM Result
 
 ![multi_PCH](src/multi_PCH.png)
+
+Pitch Class Histogram(PCH)를 통해서, D, C, G 코드가 재즈에서 많이 등장하는 코드라는 사실을 알 수 있으며, 새로 생성해준 악보에서도 D, C, G 코드가 자주 나타나는 경향을 확인할 수 있습니다.
 
 ### 3. Note Length Histogram(NLH)
 
