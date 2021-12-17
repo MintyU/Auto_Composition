@@ -1,0 +1,12 @@
+diversity:0.80
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7 G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj F:maj F:maj F:maj F:maj F:maj F:maj F:maj F:maj F:maj F:maj F:maj F:maj F:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj
+
+diversity:1.00
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7 C:maj C:maj D:7 D:7 G:9 G:9 G:7(s5,*5) G:7(s5,*5) C:maj C:maj C:maj C:maj C:maj/5 F#:dim F#:dim F#:dim C:maj C:maj C#:dim C#:dim D:min7 D:min7 G:7 G:7 C:maj C:maj C:maj C:maj C:maj7 C:7 A#:7 A#:7 A:9 G#:min7 D:maj A:7 B:min7 B:min7 E:7 E:7 _END_ _START_ C:maj7 C:maj7 A:min7 A:min7 A:min7 A:min7 D:maj6 D:maj6
+
+diversity:1.20
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7 G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj D#:dim D#:dim D:maj D:maj D:maj A:min A:min D:maj E:7 E:7 G:7 F:maj F:maj F:maj F:maj G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj A:min A:min A:min G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj G:7 C:maj C:maj C:maj C:maj C:maj C:maj
+

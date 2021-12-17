@@ -19,11 +19,13 @@ def get_model(maxlen, num_chars):
     # build an LSTM model, compile it, and return it
     print('Build model...')
     model = Sequential()
-    model.add(LSTM(512, return_sequences=True,
+    # model.add(LSTM(512, return_sequences=True,
+    #           input_shape=(maxlen, num_chars), dropout=0.2))
+    model.add(LSTM(512,
               input_shape=(maxlen, num_chars)))
-    model.add(Dropout(0.2))
-    model.add(LSTM(512, return_sequences=False))
-    model.add(Dropout(0.2))
+    # model.add(Dropout(0.2))
+    # model.add(LSTM(512, return_sequences=False, dropout=0.2))
+    # model.add(Dropout(0.2))
     model.add(Dense(num_chars))
     model.add(Activation('softmax'))
 
@@ -47,6 +49,7 @@ def main(character_mode):
     path = 'chord_sentences.txt'  # the txt data source
     text = open(path).read()
     print('corpus length:', len(text))
+    testtext = open('testset.txt').read()
 
     if character_mode:
         chars = set(text)
@@ -54,6 +57,7 @@ def main(character_mode):
         chord_seq = text.split(' ')
         chars = set(chord_seq)
         text = chord_seq
+        testtext = testtext.split(' ')
 
     char_indices = dict((c, i) for i, c in enumerate(chars))
     indices_char = dict((i, c) for i, c in enumerate(chars))
@@ -75,14 +79,15 @@ def main(character_mode):
     # build the model: stacked LSTM
     model = get_model(maxlen, num_chars)
     # train the model, output generated text after each iteration
-    for iteration in range(1, 40):
+    for iteration in range(1, 61):
         print()
         print('-' * 50)
         print('Iteration', iteration)
         with open(('result_iter_%02d.txt' % iteration), 'w') as f_write:
 
             model.fit(X, y, batch_size=512, epochs=1)
-            start_index = random.randint(0, len(text) - maxlen - 1)
+            # start_index = random.randint(0, len(text) - maxlen - 1)
+            start_index = 1
 
             for diversity in [0.8, 1.0, 1.2]:
                 print()
@@ -92,8 +97,10 @@ def main(character_mode):
                     generated = ''
                 else:
                     generated = []
-                sentence = text[start_index: start_index + maxlen]
-                seed_sentence = text[start_index: start_index + maxlen]
+                # sentence = text[start_index: start_index + maxlen]
+                # seed_sentence = text[start_index: start_index + maxlen]
+                sentence = testtext[start_index: start_index + maxlen]
+                seed_sentence = testtext[start_index: start_index + maxlen]
 
                 if character_mode:
                     generated += sentence
@@ -110,7 +117,7 @@ def main(character_mode):
                 if character_mode:
                     num_char_pred = 1500
                 else:
-                    num_char_pred = 150
+                    num_char_pred = 50
 
                 for i in range(num_char_pred):
                     x = np.zeros((1, maxlen, num_chars))
@@ -143,6 +150,7 @@ def main(character_mode):
                     f_write.write(' '.join(seed_sentence) + '\n')
                     f_write.write(' ' .join(generated))
                 f_write.write('\n\n')
+    model.save("60iter_single_lstm.h5")
     return
 
 

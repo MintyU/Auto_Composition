@@ -1,0 +1,12 @@
+diversity:0.80
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7 D:min7 D:min7 G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj G#:maj
+
+diversity:1.00
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7 C:maj C:maj C:maj C:maj G:7 G:7 G:7 G:7 C:maj C:maj C:maj C:maj F:min6 F:min6 G:7 G:7 C:maj C:maj C:maj C:maj D:7 D:7 D:7 D:7 G:7 G:7 G:7 G:7 C:maj C:maj C:maj C:maj G:7 G:7 G:7 G:7 C:maj C:maj C:maj C:maj F:min F:min F:min F:min G:7 G:7 G:7 G:7 C:maj C:maj
+
+diversity:1.20
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7
+D:min7 D:min7 G:7 G:7 D:min D:min G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj D:min7 D:min7 G:7 G:7 E:min E:min A:9 A:9 D:min D:min D:min D:min A#:7 A#:7 A#:7 A#:7 G:min6 G:min6 A:7 A:7 D:min D:min D:min D:min D:min D:min D:min D:min G:7 G:7 G:7 G:7 G:7 G:7 G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj G:7 G:7 C:maj C:maj C:maj C:maj C:maj C:maj C:maj C:maj G:7 G:7
+
